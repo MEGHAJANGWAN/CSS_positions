@@ -1,0 +1,36 @@
+.static-example {
+    position: static;
+}
+
+.fixed-example {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+
+  .sticky-example {
+    position: sticky;
+    top: 10px;
+  }
+
+  .relative-example {
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+
+  .absolute-example {
+    position: relative;
+  }
+  
+  .parent {
+    position: relative;
+    height: 200px;
+  }
+  
+  .child {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+  
